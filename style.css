@@ -1,0 +1,154 @@
+﻿body {
+  background-color: #009688;
+}
+
+.grid {
+  width: 600px;
+  height: 520px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 10px 50px 50px 50px;
+  border-radius: 50px;
+  border: 2px solid #cbcbcb;
+  box-shadow: 10px 15px 5px #cbcbcb;
+}
+
+.grid h1 {
+  font-family: "sans-serif";
+  background-color: #009688;
+  font-size: 60px;
+  text-align: center;
+  color: #ffffff;
+  padding: 2px 0px;
+  border-radius: 50px;
+}
+
+#score {
+  color: #5a6772;
+  text-align: center;
+  font-size: 30px;
+}
+
+.grid #question {
+  font-family: "monospace";
+  font-size: 30px;
+  color: #5a6772;
+}
+
+.grid #categories {
+  font-family: "monospace";
+  font-size: 30px;
+  color: #5a6772;
+}
+
+.buttons {
+  margin-top: 30px;
+}
+
+#bt0,
+#bt1,
+#bt2,
+#bt3 {
+  background-color: #009688;
+  width: 250px;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid #1d3c6a;
+  border-radius: 50px;
+  margin: 10px 40px 10px 0px;
+  padding: 10px 10px;
+}
+
+#bt0:hover,
+#bt1:hover,
+#bt2:hover,
+#bt3:hover {
+  cursor: pointer;
+  background-color: #00635a;
+}
+
+#c1,
+#c2,
+#c3,
+#c4,
+#c5,
+#c6 {
+  background-color: #009688;
+  width: 250px;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid #1d3c6a;
+  border-radius: 50px;
+  margin: 10px 40px 10px 0px;
+  padding: 10px 10px;
+}
+
+#c1:hover,
+#c2:hover,
+#c3:hover,
+#c4:hover,
+#c5:hover,
+#c6:hover {
+  cursor: pointer;
+  background-color: #00635a;
+}
+
+#progress {
+  color: #2b2b2b;
+  font-size: 18px;
+}
+
+#acasa,
+#rasp {
+  background-color: #009688;
+  width: 150;
+  height: 40;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid #1d3c6a;
+  border-radius: 50px;
+  padding-left: 10px;
+}
+#deconectare {
+  background-color: #009688;
+  width: 150;
+  height: 40;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid #1d3c6a;
+  border-radius: 50px;
+}
+#acasa:hover,
+#rasp:hover,
+#deconectare:hover {
+  cursor: pointer;
+  background-color: #00635a;
+}
+
+#inr,
+#con,
+#btn,
+#back {
+  background-color: #009688;
+  width: 150;
+  height: 40;
+  font-size: 20px;
+  color: #fff;
+  border: 1px solid #1d3c6a;
+  border-radius: 50px;
+}
+
+#inr:hover,
+#con:hover,
+#btn:hover,
+#back:hover {
+  cursor: pointer;
+  background-color: #00635a;
+}
+
+a {
+  text-decoration: none;
+}
+.acasa {
+  text-decoration: none;
+}
